@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "damadojo-party",
+  "main": "party/game-room.ts",
+  "parties": {
+    "auth": "party/auth-room.ts",
+    "lobby": "party/lobby-room.ts"
+  },
+  "compatibilityDate": "2024-01-01"
+}

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-aigerim">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+    <linearGradient id="bg-aigerim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D1B2A"/>
+      <stop offset="100%" style="stop-color:#1A2540"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg-aigerim)"/>
+  <g clip-path="url(#circle-aigerim)">
+    <!-- Body - professional dark suit -->
+    <ellipse cx="100" cy="215" rx="72" ry="55" fill="#1C1C2E"/>
+    <!-- Shirt collar / white -->
+    <path d="M85 165 L100 155 L115 165 L112 180 L100 172 L88 180 Z" fill="#E8E8F0"/>
+    <!-- Jacket lapels -->
+    <path d="M70 175 L88 165 L88 185 Z" fill="#252540"/>
+    <path d="M130 175 L112 165 L112 185 Z" fill="#252540"/>
+    <!-- Neck -->
+    <rect x="89" y="145" width="22" height="22" rx="7" fill="#D4956A"/>
+    <!-- Head -->
+    <ellipse cx="100" cy="118" rx="36" ry="40" fill="#D4956A"/>
+    <!-- Jawline refinement -->
+    <path d="M78 130 Q100 158 122 130" fill="#C8895E" opacity="0.3"/>
+    <!-- Eyes - sharp, calculating -->
+    <ellipse cx="86" cy="115" rx="8" ry="6" fill="#1A1A2E"/>
+    <ellipse cx="114" cy="115" rx="8" ry="6" fill="#1A1A2E"/>
+    <!-- Eye whites -->
+    <ellipse cx="84" cy="114" rx="3.5" ry="3" fill="#F8F5F0" opacity="0.95"/>
+    <ellipse cx="112" cy="114" rx="3.5" ry="3" fill="#F8F5F0" opacity="0.95"/>
+    <!-- Dark irises -->
+    <circle cx="85" cy="115" r="2.5" fill="#0D0D1A"/>
+    <circle cx="113" cy="115" r="2.5" fill="#0D0D1A"/>
+    <!-- Eye highlight -->
+    <circle cx="86" cy="113.5" r="0.9" fill="white" opacity="0.8"/>
+    <circle cx="114" cy="113.5" r="0.9" fill="white" opacity="0.8"/>
+    <!-- Eyebrows - sharp, defined -->
+    <path d="M77 106 Q86 103 95 106" stroke="#3A2010" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M105 106 Q114 103 123 106" stroke="#3A2010" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Nose - elegant -->
+    <path d="M98 120 Q96 126 94 128 Q100 131 106 128 Q104 126 102 120" fill="#C08055" opacity="0.5"/>
+    <!-- Lips - minimal, composed -->
+    <path d="M90 138 Q100 142 110 138" stroke="#A06040" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+    <path d="M90 138 Q95 136 100 138 Q105 136 110 138" fill="#B0705A" opacity="0.6"/>
+    <!-- Hair - sleek black, pulled back -->
+    <path d="M64 105 Q67 75 100 70 Q133 75 136 105 Q128 84 100 80 Q72 84 64 105 Z" fill="#1A1010"/>
+    <!-- Hair detail - smooth, professional -->
+    <path d="M64 105 Q62 118 65 132" stroke="#1A1010" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <path d="M136 105 Q138 118 135 132" stroke="#1A1010" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <!-- Bun/hair tie suggestion at back -->
+    <path d="M90 72 Q100 68 110 72" stroke="#1A1010" stroke-width="4" fill="none"/>
+    <!-- Small pearl earrings -->
+    <circle cx="66" cy="125" r="4" fill="#F0EDE8" opacity="0.9"/>
+    <circle cx="134" cy="125" r="4" fill="#F0EDE8" opacity="0.9"/>
+    <!-- Subtle makeup - slight contour -->
+    <path d="M76 130 Q78 138 80 142" stroke="#C4956A" stroke-width="1" fill="none" opacity="0.3"/>
+    <path d="M124 130 Q122 138 120 142" stroke="#C4956A" stroke-width="1" fill="none" opacity="0.3"/>
+  </g>
+  <!-- Silver border - champion -->
+  <circle cx="100" cy="100" r="97" fill="none" stroke="#8899AA" stroke-width="3" opacity="0.7"/>
+</svg>

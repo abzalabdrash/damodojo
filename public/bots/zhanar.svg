@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-zhanar">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+    <linearGradient id="bg-zhanar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A0A1A"/>
+      <stop offset="100%" style="stop-color:#2D1030"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg-zhanar)"/>
+  <g clip-path="url(#circle-zhanar)">
+    <!-- Body - casual hoodie / university style -->
+    <ellipse cx="100" cy="215" rx="72" ry="55" fill="#3A1F4A"/>
+    <!-- Hoodie collar -->
+    <path d="M72 175 Q100 162 128 175 Q128 195 100 188 Q72 195 72 175 Z" fill="#4A2A5A"/>
+    <!-- Logo hint on hoodie -->
+    <circle cx="100" cy="180" r="6" fill="#C9A227" opacity="0.5"/>
+    <!-- Neck -->
+    <rect x="89" y="148" width="22" height="22" rx="7" fill="#D0906A"/>
+    <!-- Head - younger, rounder -->
+    <ellipse cx="100" cy="122" rx="37" ry="40" fill="#D0906A"/>
+    <!-- Eyes - lively, expressive -->
+    <ellipse cx="85" cy="118" rx="8" ry="7" fill="#1A0A1A"/>
+    <ellipse cx="115" cy="118" rx="8" ry="7" fill="#1A0A1A"/>
+    <!-- Eye whites -->
+    <ellipse cx="83" cy="117" rx="3.5" ry="3.5" fill="#FAF7F2"/>
+    <ellipse cx="113" cy="117" rx="3.5" ry="3.5" fill="#FAF7F2"/>
+    <!-- Pupils -->
+    <circle cx="84.5" cy="118" r="2.5" fill="#0A0515"/>
+    <circle cx="114.5" cy="118" r="2.5" fill="#0A0515"/>
+    <!-- Bright eye highlight -->
+    <circle cx="83.5" cy="116" r="1.2" fill="white" opacity="0.9"/>
+    <circle cx="113.5" cy="116" r="1.2" fill="white" opacity="0.9"/>
+    <!-- Eyeliner - subtle -->
+    <path d="M77 114 Q85 111 93 114" stroke="#1A0A1A" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M107 114 Q115 111 123 114" stroke="#1A0A1A" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <!-- Eyebrows - natural, slightly bold -->
+    <path d="M77 108 Q85 105 93 108" stroke="#4A2010" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M107 108 Q115 105 123 108" stroke="#4A2010" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Nose -->
+    <path d="M97 123 Q95 130 93 132 Q100 135 107 132 Q105 130 103 123" fill="#BA7A50" opacity="0.5"/>
+    <!-- Smirk - confident -->
+    <path d="M87 141 Q96 147 108 143" stroke="#905040" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <path d="M87 141 Q92 139 100 141 Q104 140 108 143" fill="#C06855" opacity="0.7"/>
+    <!-- Slight dimple -->
+    <circle cx="110" cy="143" r="2" fill="#C07A60" opacity="0.3"/>
+    <!-- Hair - dark, long, slightly wavy, with highlights -->
+    <path d="M63 108 Q66 75 100 68 Q134 75 137 108" fill="#1A0A10"/>
+    <!-- Hair volume sides -->
+    <path d="M63 108 Q55 125 57 155" stroke="#1A0A10" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <path d="M137 108 Q145 125 143 155" stroke="#1A0A10" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- Hair highlight strands -->
+    <path d="M75 90 Q78 115 80 145" stroke="#3A1A30" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M125 90 Q122 115 120 145" stroke="#3A1A30" stroke-width="2" fill="none" opacity="0.7"/>
+    <!-- Hair clip or small accessory -->
+    <rect x="120" y="88" width="12" height="5" rx="2.5" fill="#C9A227" opacity="0.8"/>
+    <!-- Cheeks - young, slight flush -->
+    <ellipse cx="75" cy="130" rx="8" ry="5" fill="#E06050" opacity="0.15"/>
+    <ellipse cx="125" cy="130" rx="8" ry="5" fill="#E06050" opacity="0.15"/>
+    <!-- Small stud earring -->
+    <circle cx="63" cy="128" r="3" fill="#C9A227" opacity="0.9"/>
+    <circle cx="137" cy="128" r="3" fill="#C9A227" opacity="0.9"/>
+  </g>
+  <!-- Purple border - aggressive, student energy -->
+  <circle cx="100" cy="100" r="97" fill="none" stroke="#8833AA" stroke-width="3" opacity="0.7"/>
+</svg>

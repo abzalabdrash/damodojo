@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-ata">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+    <linearGradient id="bg-ata" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2C1810"/>
+      <stop offset="100%" style="stop-color:#1A0F08"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg-ata)"/>
+  <g clip-path="url(#circle-ata)">
+    <!-- Body / shoulders - dark chapan (traditional coat) -->
+    <ellipse cx="100" cy="210" rx="75" ry="60" fill="#1a3a5c"/>
+    <!-- Collar / traditional trim -->
+    <path d="M55 175 Q100 160 145 175 L145 200 Q100 185 55 200 Z" fill="#0d2438"/>
+    <!-- Gold trim on collar -->
+    <path d="M70 178 Q100 168 130 178" stroke="#C9A227" stroke-width="2" fill="none" opacity="0.8"/>
+    <!-- Neck -->
+    <rect x="88" y="145" width="24" height="30" rx="8" fill="#C4956A"/>
+    <!-- Head -->
+    <ellipse cx="100" cy="120" rx="38" ry="42" fill="#C4956A"/>
+    <!-- Forehead wrinkles -->
+    <path d="M80 100 Q100 97 120 100" stroke="#A07850" stroke-width="1.2" fill="none" opacity="0.5"/>
+    <path d="M82 108 Q100 105 118 108" stroke="#A07850" stroke-width="1" fill="none" opacity="0.4"/>
+    <!-- Eyes - wise, slightly squinting -->
+    <ellipse cx="85" cy="118" rx="7" ry="5" fill="#2D1A0E"/>
+    <ellipse cx="115" cy="118" rx="7" ry="5" fill="#2D1A0E"/>
+    <!-- Eye whites -->
+    <ellipse cx="83" cy="117" rx="3" ry="2.5" fill="#F5F0E8" opacity="0.9"/>
+    <ellipse cx="113" cy="117" rx="3" ry="2.5" fill="#F5F0E8" opacity="0.9"/>
+    <!-- Pupils -->
+    <circle cx="84" cy="118" r="2" fill="#1A0F00"/>
+    <circle cx="114" cy="118" r="2" fill="#1A0F00"/>
+    <!-- Eye highlight -->
+    <circle cx="85" cy="116.5" r="0.8" fill="white" opacity="0.7"/>
+    <circle cx="115" cy="116.5" r="0.8" fill="white" opacity="0.7"/>
+    <!-- Eyebrows - bushy, grey -->
+    <path d="M76 110 Q85 106 94 109" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <path d="M106 109 Q115 106 124 110" stroke="#8A8A8A" stroke-width="3" stroke-linecap="round" fill="none"/>
+    <!-- Nose -->
+    <path d="M97 122 Q95 130 92 133 Q100 136 108 133 Q105 130 103 122" fill="#B5855A" opacity="0.7"/>
+    <!-- Mouth - gentle, wise smile -->
+    <path d="M88 141 Q100 148 112 141" stroke="#8B5E3C" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <!-- Cheek lines (age) -->
+    <path d="M75 125 Q72 132 74 140" stroke="#A07850" stroke-width="1" fill="none" opacity="0.4"/>
+    <path d="M125 125 Q128 132 126 140" stroke="#A07850" stroke-width="1" fill="none" opacity="0.4"/>
+    <!-- Beard - white/grey -->
+    <path d="M82 140 Q100 160 118 140 Q118 155 100 168 Q82 155 82 140 Z" fill="#D0CFC9" opacity="0.9"/>
+    <!-- Beard texture -->
+    <path d="M88 145 Q100 155 112 145" stroke="#A0A09A" stroke-width="1" fill="none" opacity="0.6"/>
+    <path d="M86 152 Q100 160 114 152" stroke="#A0A09A" stroke-width="1" fill="none" opacity="0.5"/>
+    <!-- Moustache -->
+    <path d="M88 138 Q100 143 112 138 Q108 136 100 138 Q92 136 88 138 Z" fill="#C0BFBA" opacity="0.9"/>
+    <!-- Hair - short, grey-white -->
+    <path d="M62 105 Q65 80 100 75 Q135 80 138 105 Q130 88 100 85 Q70 88 62 105 Z" fill="#BEBDBA"/>
+    <!-- Sideburns -->
+    <path d="M62 105 Q60 115 63 125" stroke="#BEBDBA" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M138 105 Q140 115 137 125" stroke="#BEBDBA" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- Traditional hat (tubeteika - small) hint -->
+    <ellipse cx="100" cy="78" rx="38" ry="8" fill="#1a3a5c" opacity="0.7"/>
+    <!-- Hat pattern -->
+    <path d="M68 77 Q100 70 132 77" stroke="#C9A227" stroke-width="1.5" fill="none" opacity="0.8"/>
+  </g>
+  <!-- Gold ring border -->
+  <circle cx="100" cy="100" r="97" fill="none" stroke="#C9A227" stroke-width="3" opacity="0.6"/>
+</svg>

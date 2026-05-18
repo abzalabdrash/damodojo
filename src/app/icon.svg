@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-label="DamaDojo">
+  <!-- Brand: dark warm brown plate matching the app background -->
+  <rect width="32" height="32" rx="7" fill="#1A1408"/>
+  <!-- Subtle gold border so the icon doesn't disappear on light browser
+       chrome (Safari uses light-mode tab strips). -->
+  <rect x="0.6" y="0.6" width="30.8" height="30.8" rx="6.5"
+        fill="none" stroke="#C9A227" stroke-opacity="0.18" stroke-width="1"/>
+  <!-- "D" — keeps brand identity legible at 16x16. Bold serif weight reads
+       even when the OS rasterises the SVG into a tiny tab favicon. -->
+  <text x="11" y="24"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-weight="900"
+        font-size="22"
+        fill="#C9A227"
+        letter-spacing="-0.02em">D</text>
+  <!-- Crown-piece dot: doubles as the king/dama stack icon and a brand
+       accent so the mark reads as "draughts" not just a generic letter. -->
+  <circle cx="24" cy="9" r="3.2" fill="#C9A227"/>
+  <circle cx="24" cy="9" r="1.4" fill="#1A1408"/>
+</svg>

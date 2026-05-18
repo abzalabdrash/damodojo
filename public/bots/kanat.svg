@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <clipPath id="circle-kanat">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+    <linearGradient id="bg-kanat" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0A1A2A"/>
+      <stop offset="100%" style="stop-color:#152035"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="100" fill="url(#bg-kanat)"/>
+  <g clip-path="url(#circle-kanat)">
+    <!-- Body - casual t-shirt, student -->
+    <ellipse cx="100" cy="215" rx="72" ry="55" fill="#1A3D6A"/>
+    <!-- T-shirt collar -->
+    <path d="M80 168 Q100 158 120 168 L118 185 Q100 178 82 185 Z" fill="#1A3D6A"/>
+    <!-- Some graphic on shirt - checkers pattern hint -->
+    <rect x="88" y="178" width="24" height="16" rx="2" fill="#0D2A4A" opacity="0.6"/>
+    <rect x="88" y="178" width="6" height="5" fill="#C9A227" opacity="0.4"/>
+    <rect x="100" y="178" width="6" height="5" fill="#C9A227" opacity="0.4"/>
+    <rect x="94" y="183" width="6" height="5" fill="#C9A227" opacity="0.4"/>
+    <!-- Neck - young, smooth -->
+    <rect x="89" y="149" width="22" height="22" rx="7" fill="#C88060"/>
+    <!-- Head - younger, rounder -->
+    <ellipse cx="100" cy="124" rx="38" ry="40" fill="#C88060"/>
+    <!-- Eyes - big, expressive, excited -->
+    <ellipse cx="84" cy="120" rx="9" ry="8" fill="#15100A"/>
+    <ellipse cx="116" cy="120" rx="9" ry="8" fill="#15100A"/>
+    <!-- Eye whites - larger -->
+    <ellipse cx="82" cy="119" rx="4.5" ry="4" fill="#FAF8F4"/>
+    <ellipse cx="114" cy="119" rx="4.5" ry="4" fill="#FAF8F4"/>
+    <!-- Pupils -->
+    <circle cx="83" cy="120" r="3" fill="#0A0805"/>
+    <circle cx="115" cy="120" r="3" fill="#0A0805"/>
+    <!-- Bright highlights - enthusiastic -->
+    <circle cx="81.5" cy="118" r="1.5" fill="white" opacity="0.95"/>
+    <circle cx="113.5" cy="118" r="1.5" fill="white" opacity="0.95"/>
+    <!-- Small secondary highlight -->
+    <circle cx="84.5" cy="122" r="0.8" fill="white" opacity="0.5"/>
+    <circle cx="116.5" cy="122" r="0.8" fill="white" opacity="0.5"/>
+    <!-- Eyebrows - raised, surprised/excited -->
+    <path d="M74 110 Q84 106 93 110" stroke="#502010" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <path d="M107 110 Q116 106 126 110" stroke="#502010" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+    <!-- Nose - small, youthful -->
+    <path d="M97 125 Q96 131 94 133 Q100 136 106 133 Q104 131 103 125" fill="#B07050" opacity="0.45"/>
+    <!-- Big smile - open, teeth showing -->
+    <path d="M84 142 Q100 152 116 142 Q116 150 100 158 Q84 150 84 142 Z" fill="#E8C0A0" opacity="0.8"/>
+    <path d="M84 142 Q100 148 116 142" fill="#D05050" opacity="0.7"/>
+    <!-- Teeth hint -->
+    <path d="M87 143 Q100 149 113 143" stroke="white" stroke-width="1.5" fill="none" opacity="0.6"/>
+    <!-- Cheeks - big smile, flushed -->
+    <ellipse cx="73" cy="133" rx="10" ry="7" fill="#E07060" opacity="0.2"/>
+    <ellipse cx="127" cy="133" rx="10" ry="7" fill="#E07060" opacity="0.2"/>
+    <!-- Hair - messy, youthful -->
+    <path d="M62 112 Q68 78 100 72 Q132 78 138 112" fill="#1A0A05"/>
+    <!-- Messy hair tufts -->
+    <path d="M62 112 Q60 122 63 135" stroke="#1A0A05" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M138 112 Q140 122 137 135" stroke="#1A0A05" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <!-- Hair spikes/messiness on top -->
+    <path d="M85 73 Q88 63 92 70" stroke="#1A0A05" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M100 71 Q100 60 102 70" stroke="#1A0A05" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M110 73 Q114 63 112 72" stroke="#1A0A05" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <!-- Cute small dimple -->
+    <circle cx="115" cy="148" r="2.5" fill="#B07060" opacity="0.3"/>
+    <circle cx="85" cy="148" r="2.5" fill="#B07060" opacity="0.3"/>
+  </g>
+  <!-- Blue lively border - student energy -->
+  <circle cx="100" cy="100" r="97" fill="none" stroke="#2255AA" stroke-width="3" opacity="0.7"/>
+</svg>

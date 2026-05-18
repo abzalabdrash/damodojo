@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+/* ---------- DamaDojo BRAND tokens (see docs/BRAND.md) ---------- */
+
+/* Default = dark theme (BRAND primary) */
+:root {
+  --bg-page: #0E0C0A;
+  --bg-surface: #181512;
+  --bg-elevated: #221E1A;
+  --border-base: #2D2823;
+  --border-strong: #3E372F;
+
+  --text-primary: #F5F1EA;
+  --text-secondary: #A39988;
+  --text-muted: #6E665B;
+
+  /* Board — same in both themes for recognizability */
+  --board-light: #D6BF95;
+  --board-dark: #5C4530;
+  --board-frame: #2A2018;
+
+  --piece-light: #EDE3D0;
+  --piece-light-edge: #B89B6A;
+  --piece-dark: #1F1A14;
+  --piece-dark-edge: #4A3E2D;
+  --piece-king: #C9A227;
+
+  --accent: #C9A227;
+  --accent-muted: rgba(201, 162, 39, 0.18);
+  --success: #6B8F4E;
+  --warning: #C97A2A;
+  --danger: #B85C50;
+  --info: #6F8AAD;
+}
+
+.light {
+  --bg-page: #F5F1EA;
+  --bg-surface: #EBE5D6;
+  --bg-elevated: #FFFFFF;
+  --border-base: #DDD4C2;
+  --border-strong: #C4B89F;
+
+  --text-primary: #1A1612;
+  --text-secondary: #5C5145;
+  --text-muted: #8A7F70;
+}
+
+/* ---------- Tailwind v4 theme exposure (CSS-first config) ---------- */
+@theme inline {
+  --color-bg-page: var(--bg-page);
+  --color-bg-surface: var(--bg-surface);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-border-base: var(--border-base);
+  --color-border-strong: var(--border-strong);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+
+  --color-board-light: var(--board-light);
+  --color-board-dark: var(--board-dark);
+  --color-board-frame: var(--board-frame);
+
+  --color-piece-light: var(--piece-light);
+  --color-piece-light-edge: var(--piece-light-edge);
+  --color-piece-dark: var(--piece-dark);
+  --color-piece-dark-edge: var(--piece-dark-edge);
+  --color-piece-king: var(--piece-king);
+
+  --color-accent: var(--accent);
+  --color-accent-muted: var(--accent-muted);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-danger: var(--danger);
+  --color-info: var(--info);
+
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-jetbrains);
+
+  /* Premium ease curve (BRAND §8) */
+  --ease-premium: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body {
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide focus ring on mouse, keep on keyboard */
+:focus:not(:focus-visible) { outline: none; }
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Disable text selection on UI chrome (re-enabled by inputs etc.) */
+button, [role="button"] {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Selection color in brand */
+::selection {
+  background: var(--accent-muted);
+  color: var(--text-primary);
+}

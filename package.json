@@ -1,0 +1,51 @@
+{
+  "name": "checkers",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "data:lidraughts": "node scripts/download-lidraughts-russian.mjs",
+    "data:idf64:assets": "node scripts/download-idf64-assets.mjs",
+    "data:idf64:pdn": "node scripts/download-idf-pdn.mjs",
+    "data:idf64:extract": "node scripts/extract-idf64-pdn.mjs",
+    "data:openings": "node scripts/build-openings.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.105.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.16.0",
+    "next": "16.2.6",
+    "next-intl": "^4.12.0",
+    "next-themes": "^0.4.6",
+    "partykit": "^0.0.115",
+    "partysocket": "^1.1.19",
+    "qrcode": "^1.5.4",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "tailwind-merge": "^3.6.0",
+    "uuid": "^14.0.0",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/qrcode": "^1.5.6",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/uuid": "^10.0.0",
+    "@vitest/expect": "^4.1.6",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "tsx": "^4.22.0",
+    "typescript": "^5",
+    "vitest": "^4.1.6"
+  }
+}

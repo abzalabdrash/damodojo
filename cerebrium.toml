@@ -1,0 +1,47 @@
+[cerebrium.deployment]
+name = "damadojo-distill"
+python_version = "3.11"
+docker_base_image_url = "debian:bookworm-slim"
+disable_auth = true
+include = [
+  './src/**',
+  './scripts/nn-training/label_distill.mjs',
+  './package.json',
+  './package-lock.json',
+  './tsconfig.json',
+  './main.py',
+  './cerebrium.toml',
+]
+exclude = [
+  './node_modules/**',
+  './.git/**',
+  './.next/**',
+  './data/**',
+  './.claude/**',
+  './public/**',
+  './scripts/nn-training/cerebrium_distill/**',
+]
+pre_build_commands = [
+  "apt-get update && apt-get install -y curl gnupg ca-certificates",
+  "curl -fsSL https://deb.nodesource.com/setup_20.x | bash -",
+  "apt-get install -y nodejs",
+]
+shell_commands = [
+  "cd /cortex && npm install --no-audit --no-fund --loglevel=error",
+]
+
+[cerebrium.hardware]
+cpu = 1.0
+memory = 2.0
+compute = "CPU"
+region = "us-east-1"
+
+[cerebrium.scaling]
+min_replicas = 0
+max_replicas = 500
+cooldown = 30
+replica_concurrency = 1
+scaling_metric = "concurrency_utilization"
+
+[cerebrium.dependencies.pip]
+numpy = "latest"

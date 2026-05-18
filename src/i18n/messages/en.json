@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "title": "DamaDojo — checkers that teach you to think",
+    "description": "A premium platform for Russian checkers with AI bots and a full game review tool. Train your strategic thinking every day."
+  },
+  "nav": {
+    "play": "Play",
+    "review": "Review",
+    "puzzle": "Puzzles",
+    "leaderboard": "Leaderboard",
+    "login": "Sign in"
+  },
+  "hero": {
+    "title_line_1": "Checkers",
+    "title_line_2": "that teach you to think",
+    "subtitle": "Face Ata, Zhanar or Temir. Get a full post-game review with every move classified. Tomorrow, the critical moment returns as your daily puzzle.",
+    "cta_primary": "Play now",
+    "cta_secondary": "How it works"
+  },
+  "bots": {
+    "ata": {
+      "name": "Ata",
+      "title": "The calm aksakal",
+      "bio": "A patient old-school player. Never rushes, calculates several moves ahead. Perfect when you're learning."
+    },
+    "zhanar": {
+      "name": "Zhanar",
+      "title": "Young, fast",
+      "bio": "Energetic style with active captures. Loves a sharp tempo and unexpected combinations."
+    },
+    "temir": {
+      "name": "Temir",
+      "title": "The strict master",
+      "bio": "A laconic opponent whose calculation has no weak points. Sit down with Temir only if you're ready."
+    },
+    "play_button": "Play",
+    "rating": "Rating"
+  },
+  "common": {
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "language": "Language",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading…"
+  }
+}

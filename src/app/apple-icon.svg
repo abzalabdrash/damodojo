@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-label="DamaDojo">
+  <!-- iOS-sized variant (180×180) so the home-screen icon and the
+       Safari pinned-tab favicon both render the brand mark instead of
+       the default Vercel "n". Layout is the same shape as icon.svg
+       but scaled, with extra padding around the glyph. -->
+  <rect width="180" height="180" rx="36" fill="#1A1408"/>
+  <rect x="3.5" y="3.5" width="173" height="173" rx="33"
+        fill="none" stroke="#C9A227" stroke-opacity="0.22" stroke-width="2"/>
+  <text x="56" y="132"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-weight="900"
+        font-size="124"
+        fill="#C9A227"
+        letter-spacing="-0.02em">D</text>
+  <circle cx="135" cy="50" r="18" fill="#C9A227"/>
+  <circle cx="135" cy="50" r="8" fill="#1A1408"/>
+</svg>

@@ -1,0 +1,22 @@
+# Training data for the NN engine — runtime doesn't need this (5.2 GB of PDN
+# games and position datasets). Anchor at root so src/lib/engine-ai/data/
+# (opening book code) is NOT excluded.
+/data/
+
+# Scripts that download/process data are only used at training time.
+/scripts/
+
+# Local PartyKit cache.
+.partykit/
+
+# Local Next.js artifacts (Vercel rebuilds these).
+.next/
+out/
+
+# Editor / OS junk.
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+
+# Test snapshots (not needed at runtime).
+coverage/

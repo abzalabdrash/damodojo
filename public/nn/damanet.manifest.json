@@ -1,0 +1,90 @@
+{
+  "architecture": {
+    "inputDim": 129,
+    "hiddenDim": 256,
+    "layout": "fc1 (Linear+ReLU) \u2192 fc2 (Linear+ReLU) \u2192 fc3 (Linear+Sigmoid)"
+  },
+  "totalFloats": 99329,
+  "totalBytes": 397316,
+  "layers": [
+    {
+      "name": "fc1.weight",
+      "shape": [
+        256,
+        129
+      ],
+      "offset": 0,
+      "size": 33024
+    },
+    {
+      "name": "fc1.bias",
+      "shape": [
+        256
+      ],
+      "offset": 33024,
+      "size": 256
+    },
+    {
+      "name": "fc2.weight",
+      "shape": [
+        256,
+        256
+      ],
+      "offset": 33280,
+      "size": 65536
+    },
+    {
+      "name": "fc2.bias",
+      "shape": [
+        256
+      ],
+      "offset": 98816,
+      "size": 256
+    },
+    {
+      "name": "fc3.weight",
+      "shape": [
+        1,
+        256
+      ],
+      "offset": 99072,
+      "size": 256
+    },
+    {
+      "name": "fc3.bias",
+      "shape": [
+        1
+      ],
+      "offset": 99328,
+      "size": 1
+    }
+  ],
+  "datasetMeta": {
+    "count": 1177063,
+    "inputDim": 129,
+    "shuffleSeed": 12648430,
+    "encoding": {
+      "description": "32 dark squares \u00d7 {w-man, w-king, b-man, b-king} one-hot + 1 side-to-move (0=w, 1=b).",
+      "perSquareChannels": [
+        "w_man",
+        "w_king",
+        "b_man",
+        "b_king"
+      ],
+      "layout": "row-major: square0_wman, square0_wking, square0_bman, square0_bking, square1_..., ..., square31_..., stm"
+    },
+    "source": {
+      "pdnDir": "data/pdn",
+      "fileCount": 263,
+      "parsedFileCount": 263,
+      "gameCount": 21738,
+      "failedGameCount": 16166,
+      "skippedByElo": 0,
+      "minElo": 0,
+      "maxPly": 120,
+      "skipFirst": 4
+    },
+    "generatedAt": "2026-05-16T05:16:47.334Z"
+  },
+  "trainedAt": "2026-05-16T13:50:45Z"
+}
