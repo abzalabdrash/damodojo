@@ -2,7 +2,9 @@
 
 Веб-платформа для русских шашек с онлайн играми и разбором партий. 
 
-Сайт: **[abzalabdrash.me](https://abzalabdrash.me)**
+Сайт: **[damodojo.vercel.app](https://damodojo.vercel.app)**
+
+Автор: Абзал Абдраш, [abzalabdrash.me](https://abzalabdrash.me)
 
 ---
 
@@ -63,6 +65,6 @@ Realtime: PartyKit
 БД и авторизация: Supabase
 Тренер: Featherless.ai (Qwen2.5-32B, стриминг)
 Движок: [DAMA-1](https://github.com/abzalabdrash/dama-1), TypeScript
-Хостинг: Vercel + Cloudflare DNS
+Хостинг: Vercel
 
 ---
